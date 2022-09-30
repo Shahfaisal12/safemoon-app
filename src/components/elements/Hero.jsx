@@ -13,7 +13,7 @@ const Hero = () => {
         <video
           src="https://mdbootstrap.com/img/video/Lines.mp4"
           autoPlay
-          muted
+          mutedg
           loop
         />
         <div class="content text-white mt-5 pt-5">
