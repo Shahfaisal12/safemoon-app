@@ -1,3 +1,5 @@
 
-  [build.environment]
-  NODE_VERSION = "16.17.1"
+[[redirects]]
+  from = "/*"
+  to = "/"
+  status = 200
