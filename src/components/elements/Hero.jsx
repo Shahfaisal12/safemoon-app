@@ -4,7 +4,7 @@ import { AiFillCopy } from "react-icons/ai";
 import { TiArrowSortedUp } from "react-icons/ti";
 import { FiAlertTriangle } from "react-icons/fi";
 import { Link } from "react-scroll";
-import Typed from "react-typed";
+// import Typed from "react-typed";
 
 const Hero = () => {
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
         <video
           src="https://mdbootstrap.com/img/video/Lines.mp4"
           autoPlay
-          mutedg
+          mutedgnod
           loop
         />
         <div class="content text-white mt-5 pt-5">
@@ -34,13 +34,12 @@ const Hero = () => {
                 </div>
                 <div className="text-container">
                   <p className="mb-0 text-uppercase">Welcome to</p>
-                  <Typed
-                    className="fs-1 text-uppercase fw-bold mb-0"
-                    strings={["SAFEMOON"]}
-                    typeSpeed={150}
-                    backSpeed={100}
-                    loop
-                  />
+                  <h1 className="display-2 text-uppercase fw-bold mb-0">safemoon</h1>
+                    {/* // strings={["SAFEMOON"]}
+                    // typeSpeed={150}
+                    // backSpeed={100}
+                    // loop
+                  /> */}
                   <p>Community-driven Innovation for Good</p>
                   <div className="mb-5">
                     <a
