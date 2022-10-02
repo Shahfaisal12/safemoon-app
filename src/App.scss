@@ -59,11 +59,12 @@ video {
   align-items: center;
   position: relative;
   z-index: 10;
+
+  h1 {
+    font-size: 5vw;
+  }
 }
 
-.hero-section .content h1 {
-  font-size: 4rem;
-}
 .btn-info {
   background-color: #008a81 !important;
   border-color: #008a81 !important;
@@ -100,7 +101,7 @@ video {
 .fixedButton {
   position: fixed;
   bottom: 0px;
-  right: 20px;
+  right: 10px;
   padding: 10px;
    z-index: 10;
 }

@@ -34,7 +34,7 @@ const Hero = () => {
                 </div>
                 <div className="text-container">
                   <p className="mb-0 text-uppercase">Welcome to</p>
-                  <h1 className="display-2 text-uppercase fw-bold mb-0">safemoon</h1>
+                  <h1 className="text-uppercase fw-bold mb-0">safemoon</h1>
                     {/* // strings={["SAFEMOON"]}
                     // typeSpeed={150}
                     // backSpeed={100}
